@@ -1,0 +1,211 @@
+@import compass/reset
+@import toast
+
+//Colors
+
+//$grey: #5E5D59
+$neon-yellow: #F7FE9C
+$yellow: #FED965
+//$green: #4F5240
+$red: #DD684D
+//$berry: #552030
+//$tan: #9a8d84
+//$black: #3D3E38
+//$blue: #2d798b
+$blue: #507881
+$tan: #9a8170
+$grey: #86857f
+$green: #75795f
+
+//
+.logo
+	height: 90%
+	width: 90%
+	@media (max-width: 1000px)
+		padding-top: 30px
+	@media (max-width: 650px)
+		height: 20%
+		margin-top: -50px
+		padding-top: 0
+		position: relative
+		right: 0
+		top: 0
+		width: 20%
+		z-index: 4
+
+.title
+	font-size: 180px
+	letter-spacing: 4px
+	padding-top: 100px
+	@media (max-width: 1180px)
+		font-size: 120px
+		padding-top: 120px
+	@media (max-width: 830px)
+		font-size: 80px
+		letter-spacing: 2px
+		padding-top: 100px
+	@media (max-width: 650px)
+		font-size: 40px
+		letter-spacing: 1px
+		padding-top: 30px
+		z-index: 2
+
+body
+	font-family: 'Lato', sans-serif
+
+.title, nav, .post-title
+	font-family: 'Pathway Gothic One', sans-serif
+
+
+.unit .head-sub-unit
+	@media (max-width: 650px)
+		display: inline-block
+		margin-left: 3%
+		width: 22.05%
+
+.unit .head-unit
+	@media (max-width: 650px)
+		float: right
+
+nav
+	color: $red
+
+p
+	color: $green
+
+a
+	color: $red
+	text-decoration: none
+
+a:hover
+	color: darken( $red, 10% ) 
+	text-decoration: underline
+
+a.current-blog
+	color: $grey
+
+a.current-blog:hover
+	color: darken( $grey, 10% )
+	text-decoration: underline
+
+a.current-projects
+	color: $tan
+
+a.current-projects:hover
+	color: darken( $tan, 10% )
+	text-decoration: underline
+
+a.current-vine
+	color: $green
+
+a.current-vine:hover
+	color: darken($green, 10% )
+	text-decoration: underline
+
+a.current-about
+	color: $blue
+
+a.current-about:hover
+	color: darken($blue, 10% )
+	text-decoration: underline
+
+.title a
+	color: $neon-yellow
+
+.title a:hover
+	color: lighten($neon-yellow, 8% )
+	text-decoration: none
+
+header
+	li
+		text-align: center
+
+.title
+	color: $neon-yellow
+
+header
+	background: $yellow
+
+header
+	nav
+		background: $neon-yellow
+
+h2.tag-line
+	color: $grey
+	margin-bottom: 15px
+	line-height: 1
+	text-align: center
+
+h2.tag-line-border
+	margin-bottom: 40px
+
+header
+	nav
+		font-size: 30px
+		font-weight: bold
+		line-height: 50px
+		text-transform: uppercase
+
+.title
+	span
+		letter-spacing: 10px
+		@media (max-width: 830px)
+			letter-spacing: 4px
+
+
+.post-head
+	.container
+		//border-bottom: 2px solid $neon-yellow
+		//border-top: 1px solid $green
+		height: 50px
+
+.post-head
+	h3, h4
+		color: white
+		line-height: 50px
+		font-weight: 200
+
+.post-title
+	text-transform: capitalize
+	font-size: 30px
+
+.post-head
+	h4
+		font-weight: 300
+		text-align: center
+
+.vine-head
+	.container
+		background: $green
+
+.blog-head
+	.container
+		background: $grey
+
+.projects-head
+	.container
+		background: $tan
+
+.about-head
+	.container
+		background: $blue
+
+.post-content
+	padding: 40px 0
+
+.post-content
+	p
+		max-width: 900px
+
+body
+	//background: #eee
+
+.post-content
+	.container
+		background: white
+
+
+
+
+
+
