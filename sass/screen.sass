@@ -17,7 +17,6 @@ $tan: #9a8170
 $grey: #86857f
 $green: #75795f
 
-//
 .logo
 	height: 90%
 	width: 90%
@@ -67,6 +66,8 @@ body
 	@media (max-width: 650px)
 		float: right
 
+footer
+	font-size: 90%
 nav
 	color: $red
 
@@ -116,7 +117,7 @@ a.current-about:hover
 	color: lighten($neon-yellow, 8% )
 	text-decoration: none
 
-header
+header, footer
 	li
 		text-align: center
 
@@ -126,7 +127,7 @@ header
 header
 	background: $yellow
 
-header
+header, footer
 	nav
 		background: $neon-yellow
 
@@ -139,7 +140,7 @@ h2.tag-line
 h2.tag-line-border
 	margin-bottom: 40px
 
-header
+header, footer
 	nav
 		font-size: 30px
 		font-weight: bold
@@ -204,8 +205,15 @@ body
 	.container
 		background: white
 
+footer
+	background: $yellow
 
+.footer-main
+	padding: 40px 0
 
+html
+	background: $yellow
 
-
+body
+	background: #fff
 
